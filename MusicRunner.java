@@ -49,7 +49,7 @@ public class MusicRunner
         count++;
       }
       
-      if (count == 1)  // For now only read ONE song
+      if (count == 10)  // For now only read ONE song
         break;
       
       data = mr.getSongData();  // Get next line of song data
