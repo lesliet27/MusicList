@@ -56,5 +56,10 @@ public class MusicRunner
     }
     
     mr.close();
+    
+    for (int i = songs.size(); 1>= 0; i--)
+    {
+      System.out.printl("Artist: " = song.artist + ", Name" + song.name + ", Year: " + song.year + ", Score" + song.score + ", Notes:" + song.notes );
   }
+}
 }

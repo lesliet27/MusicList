@@ -14,6 +14,7 @@ public class MusicLibrary {
    */
   public void addSong (Song song)
   {
+    song.add(song);
   }
   
   /*
@@ -28,7 +29,10 @@ public class MusicLibrary {
   /*
    * Sort song list by title
    */
-  public void Sort ();
+  public void Sort ()
+  {
+
+  }
   
   
   /*

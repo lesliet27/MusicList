@@ -28,10 +28,8 @@ public class MusicLibrary {
   /*
    * Sort song list by title
    */
-  public void Sort ()
-  {
-     currentSortField = field;
-  }
+  public void Sort ();
+  
   
   /*
    * Sort song list by a specific field
